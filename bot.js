@@ -127,5 +127,5 @@ if (!rank) return message.reply(' ')
 });
 
 ///////////////////لا تعدل فيها شيء
-client.login(process.env.TOKEN);////////////// هنا هتشغل اكونت
-client2.login(process.env.TOKEN2);///////////// هنا هتشغل اكونت تانى 
+client.login("NTUwMzc0NzQ5MTM0Mzg5MjYx.D1hgOQ.pNN_d0LWLSZzMfxGwXeuDij2QqQ");////////////// هنا هتشغل اكونت
+client2.login("NTUwMDk5OTIxOTQ0OTY5MjI0.D1hhbA.ivypL39L43BHf6pWlK4TwFHkQO8");///////////// هنا هتشغل اكونت تانى 
