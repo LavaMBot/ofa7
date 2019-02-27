@@ -1,7 +1,7 @@
 ﻿const Discord = require("discord.js");
 const client = new Discord.Client();
 const client2 = new Discord.Client();
-const myid = [''];
+const myid = ['463233613454901249'];
 const prefix = ['1'];////////////////// البرفكس
 
 client.on('ready', () => {
@@ -38,7 +38,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if(message.content === prefix+'ريب'){
-        message.channel.send("#rep "+"<@" + myid + ">")/////////////// بتاعك لو مش عارف اذاى تجيبو كلم رانسى  IDهنا ال
+        message.channel.send("#rep "+"<@" + 463233613454901249 + ">")/////////////// بتاعك لو مش عارف اذاى تجيبو كلم رانسى  IDهنا ال
     }
 });
 
