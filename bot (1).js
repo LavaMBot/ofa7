@@ -38,7 +38,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if(message.content === prefix+'ريب'){
-        message.channel.send("#rep "+"<@" + 463233613454901249 + ">")/////////////// بتاعك لو مش عارف اذاى تجيبو كلم رانسى  IDهنا ال
+        message.channel.send('#rep <@463233613454901249>')/////////////// بتاعك لو مش عارف اذاى تجيبو كلم رانسى  IDهنا ال
     }
 });
 
@@ -89,7 +89,7 @@ client2.on('message', message => {
 
 client2.on('message', message => {
     if(message.content === prefix+'ريب'){
-        message.channel.send('#rep <@275902727291142145>')/////////////// بتاعك لو مش عارف اذاى تجيبو كلم رانسى  IDهنا ال
+        message.channel.send('#rep <@463233613454901249>')/////////////// بتاعك لو مش عارف اذاى تجيبو كلم رانسى  IDهنا ال
     }
 });
 
@@ -119,7 +119,7 @@ client2.on('message', message => {
 
 
 if (command == "تحدث") {
-let rank = message.guild.member(message.author).roles.find('name', 'Role.Ransi');/////هنا اكتب اسم الرتبة 
+let rank = message.guild.member(message.author).roles.find('name', 'Role.Lava');/////هنا اكتب اسم الرتبة 
 if (!rank) return message.reply(' ')
   message.channel.send(args.join("  "))
     message.delete();
